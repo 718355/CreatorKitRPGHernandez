@@ -207,18 +207,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a657642475934620a07fd2e829b35d7, type: 3}
---- !u!114 &17839128 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 320233495672156186, guid: 2a657642475934620a07fd2e829b35d7,
-    type: 3}
-  m_PrefabInstance: {fileID: 17839127}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41613ed0111c54d85a17175edc8c4b77, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &17839129 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5440847397157196393, guid: 2a657642475934620a07fd2e829b35d7,
@@ -31065,7 +31053,7 @@ PrefabInstance:
     - target: {fileID: 5440847397157196393, guid: 2a657642475934620a07fd2e829b35d7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.52
+      value: 5.5200005
       objectReference: {fileID: 0}
     - target: {fileID: 5440847397157196393, guid: 2a657642475934620a07fd2e829b35d7,
         type: 3}
@@ -31974,14 +31962,13 @@ MonoBehaviour:
   spawnMode: 0
   enableOnQuestStart:
   - {fileID: 356723009}
-  - {fileID: 356723009}
   spawnOnQuestStart: []
   requiredItems:
   - item: {fileID: 356723012}
     count: 1
   spawnOnQuestComplete: []
   rewardItems:
-  - {fileID: 17839128}
+  - {fileID: 356723012}
   destroySpawnsOnQuestComplete: 1
   introCutscenePrefab: {fileID: 0}
   outroCutscenePrefab: {fileID: 0}
@@ -32193,8 +32180,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 356723014}
   - {fileID: 17839129}
+  - {fileID: 356723014}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1739983182
